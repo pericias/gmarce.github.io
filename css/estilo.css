@@ -29,7 +29,7 @@ header{
 
 .logo{
     text-transform: uppercase;
-    color: #6cc001;
+     color: rgb(255, 0, 0);/* #6cc001; */
     font-weight: 200;
     font-family: "Trickster", "Anta";
 }
@@ -112,9 +112,10 @@ header{
 }
 
 .boton-empezar{
+    font-size: 1.4em;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #6cc001;
+    border: 1px solid  rgba(254, 44, 42, 0.842); /* #6cc001;*/
     padding: 20px 40px;
     align-self: baseline;
     transition: all 0.4s;
@@ -122,7 +123,7 @@ header{
 }
 
 .boton-empezar:hover{
-    background: #6cc09070;
+    background:  rgba(254, 44, 42, 0.842); /* rgba(245, 74, 74, 0.842); /* #6cc09070;*/
 }
 
 /* PERSONAS */
@@ -139,7 +140,7 @@ header{
 }
 
 #personas div{
-    padding: 30px 30px;
+    padding: 30px 30px;    
 }
 
 #personas div h4{
@@ -156,16 +157,16 @@ header{
 .boton-saber-mas {
     display: inline-block;
     text-decoration: none;
-    color: #6cc091;
+    color: rgba(254, 44, 42, 0.842); /* #6cc091;*/
     padding: 10px 30px;
-    border: 1px solid #6cc091;
+    border: 1px solid rgba(254, 44, 42, 0.842);/*#6cc091;*/
     border-radius: 15px;
     margin-top: 15px;
     transition: all 0.4s;
 }
 
 .boton-saber-mas:hover{
-    background: #6cc091;
+    background: rgba(254, 44, 42, 0.842);/*#6cc091;*/
     color: #fff;
 }
     
@@ -191,7 +192,7 @@ header{
 }
 
 .contenido-iconos div i{
-    color: #6cc091;
+    color:  rgba(254, 44, 42, 0.842);/* #6cc091;*/
 }
 
 .contenido-iconos div h6{

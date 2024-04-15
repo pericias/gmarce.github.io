@@ -20,7 +20,7 @@
 header{
     height: 80px;
     background: #4d4d5c;
-    padding: 0 30px;
+    padding: 0 20px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header{
 
 .logo{
     text-transform: uppercase;
-     color: rgb(255, 0, 0);/* #6cc001; */
+    color: rgb(255, 0, 0);/* #6cc001; */
     font-weight: 200;
     font-family: "Trickster", "Anta";
 }
@@ -66,7 +66,7 @@ header{
 }
 /* BANNER */
 #banner{
-    padding: 0 50px;
+    padding: 0 20px;
     background-image: url(../img/Fondo1.png);
     height: 53vh;
     background-size: cover;
@@ -99,7 +99,7 @@ header{
 
 .contenido-banner h3 span{ /*PERITO INFORMATICO*/
     font-weight: 600;  
-    font-size: 35px;      
+    font-size: 38px;      
     font-family: "Trickster", "Anta";
     
     /* font-family: "Oswald", sans-serif; */
@@ -129,7 +129,7 @@ header{
 /* PERSONAS */
 
 #personas{
-    padding: 50px 50px;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -168,6 +168,7 @@ header{
 .boton-saber-mas:hover{
     background: rgba(235, 61, 58, 0.747);/*#6cc091;*/
     color: #fff;
+    cursor: pointer; /*BOTONES*/
 }
     
 #iconos{
@@ -198,12 +199,12 @@ header{
 .contenido-iconos div h6{
     color: #fff;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 500;
     margin: 10px 0px;
 }
 
 .contenido-iconos div p{
-    color: rgba(255,255,255,0.55);
+    color: rgba(255, 255, 255, 0.801); /*rgba(255,255,255,0.55);*/
     font-size: 15px;
 }
 
@@ -217,13 +218,16 @@ header{
 #contacto{
     background: #6cc091;
     padding: 50px 0px;
-    color: #fff;
+    color: #fff;    
 }
 
 #contacto h4{
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
+}
+input.boton-saber-mas {
+    font-size: 15px; /* Ajusta el tamaño según lo necesites */
 }
 
 #contacto form{
@@ -285,7 +289,7 @@ form textarea::placeholder{
 /* FOOTER */
 footer{
     background: #4d4d5c;
-    color: #cccccc4a;
+    color: rgba(255, 255, 255, 0.801); /* #cccccc4a;*/
     text-align: center;
     padding: 10px 0px;
 }

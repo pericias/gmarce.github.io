@@ -38,7 +38,7 @@ header{
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 30px;
     transition: 0.4s;
     font-family: "Trickster", "Anta";
 }
@@ -58,7 +58,7 @@ header{
 .menu a:hover,
 .mostrar-menu:hover,
 .esconder-menu:hover{
-    background: #6cc001;
+    background: rgba(238, 68, 65, 0.747);/* #6cc001;*/
 }
 
 #check{

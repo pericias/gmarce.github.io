@@ -214,12 +214,44 @@ header{
 }
 
 /* FORMULARIO */
-
 #contacto{
-    background: #6cc091;
-    padding: 50px 0px;
+    background: rgba(235, 61, 58, 0.747);/* #6cc091;*/
+    padding: 10px 0px;
     color: #fff;    
 }
+
+.contenido-contacto{
+    padding: 30px 30px;
+    display: flex;  
+    justify-content: space-between;
+    text-align: center;
+}
+
+#contacto .cajaizquierda{
+    /*background:  rgba(235, 61, 58, 0.747);*/
+    /* border: 1px solid blue; */
+    padding: 10px 10px; 
+    flex: 1;
+    margin: 0px 0px;
+    line-height: 1.5em;
+    border-right: 2px solid rgba(255,255,255,0.2);
+}
+
+#contacto .cajaizquierda h1{
+    font-weight: 600;  
+    font-size: 40px;      
+    text-align: center;
+    font-family: "Trickster", "Anta";
+    line-height: 1.5em;    
+}
+
+#contacto .cajaderecha{    
+    /* border: 1px solid red; */
+    flex: 1;   
+    padding: 10px 10px;
+    margin: 30px 0px;
+}
+
 
 #contacto h4{
     text-align: center;
@@ -231,16 +263,16 @@ input.boton-saber-mas {
 }
 
 #contacto form{
-    max-width: 80%;
+    max-width: 100%; /*Tamaño del Form*/
     margin: 0 auto;
 }
 .datos-form{
-    display: flex;
+   display: flex; 
 }
 
 .datos-form div{
     padding: 10px;
-    flex: 1;
+    flex: 1; 
 }
 
 form label{
@@ -250,9 +282,9 @@ form label{
 
 form input,
 form textarea{
-    background: #6cc091;
+    /* background: #6cc091; */
     border-radius: 10px;
-    border: 2px solid #8dcca9;
+    /* border: 2px solid #8dcca9; */
     padding: 10px 5px;
     outline: 0;    
     color: #fff;
@@ -342,6 +374,8 @@ footer{
         flex-direction: column;
     }
 
-
+    .contenido-contacto{
+        flex-direction: column;
+    }
 
 }

@@ -193,7 +193,7 @@ header{
 }
 
 .contenido-iconos div i{
-    color:  rgba(235, 61, 58, 0.747);/* #6cc091;*/
+    color:   rgba(235, 61, 58, 0.747); /*#6cc091;*/
 }
 
 .contenido-iconos div h6{
@@ -215,7 +215,7 @@ header{
 
 /* FORMULARIO */
 #contacto{
-    background: rgba(235, 61, 58, 0.747);/* #6cc091;*/
+    background: rgba(238, 32, 28, 0.747);/* #6cc091;*/
     padding: 10px 0px;
     color: #fff;    
 }
@@ -252,7 +252,6 @@ header{
     margin: 30px 0px;
 }
 
-
 #contacto h4{
     text-align: center;
     font-size: 25px;
@@ -284,22 +283,23 @@ form input,
 form textarea{
     /* background: #6cc091; */
     border-radius: 10px;
-    /* border: 2px solid #8dcca9; */
+    border: 2px solid rgba(238, 32, 28, 0.747);/* #8dcca9; */
     padding: 10px 5px;
-    outline: 0;    
-    color: #fff;
+    outline: 0;
+    color: black;
     width: 100%;
 }
 
 form input:focus,
 form textarea:focus{
-    border-color: #4bae77;
-    box-shadow: 0 0 0 1px #4bae77 ;
+    border-color: rgba(238, 68, 65, 0.747);  /*#4bae77;*/
+    /*box-shadow: 0 0 0 1px rgba(238, 68, 65, 0.747); /*#4bae77 ;*/
+    color: black;
 }
 
 form input::placeholder,
 form textarea::placeholder{
-    color: #fff
+    color: rgb(78, 78, 78);
 }
 
 .mensaje{
@@ -309,14 +309,16 @@ form textarea::placeholder{
 }
 
 .boton-formulario .boton-saber-mas{
+    background: white;
     display: block;
     border: 1px solid #fff;
-    color: #fff;
+    color: rgb(78, 78, 78);
     text-align: center;
     transition: 0.4s;
 }
 .boton-formulario .boton-saber-mas:hover{
-    background: #4fa776ad ;
+    background: rgba(238, 68, 65, 0.747); /* #4fa776ad ;*/
+    color: #fff;
 }
 /* FOOTER */
 footer{
@@ -377,5 +379,7 @@ footer{
     .contenido-contacto{
         flex-direction: column;
     }
-
+    #contacto .cajaizquierda{
+        border-right: none;
+    }
 }

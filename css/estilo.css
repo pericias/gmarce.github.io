@@ -172,15 +172,16 @@ header{
 }
     
 #iconos{
-    padding: 0px 50px;
+    padding: 0px 0px;
     background: rgba(77, 77,92, 0.6);
 }
 
 .contenido-iconos{
-    padding: 50px 50px 50px 50px;
+    padding: 50px 20px 50px 20px; 
     display: flex;
     justify-content: space-between;
     text-align: center;
+    /* border: 1px solid blue; */
 }
 
 .contenido-iconos div{
@@ -381,5 +382,7 @@ footer{
     }
     #contacto .cajaizquierda{
         border-right: none;
+        border-bottom: 2px solid rgba(255,255,255,0.2);
+
     }
 }

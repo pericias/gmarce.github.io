@@ -249,8 +249,11 @@ header{
     margin: 0px 0px;
     line-height: 1.5em;
     border-right: 2px solid rgba(255,255,255,0.2);
-    background-image: url('../img/Titulo1.png');
+    background-image: url('../img/Qr.png');
+    background-repeat: no-repeat;
+    background-position: center top 300px;
 }
+
 
 #contacto .cajaizquierda h1{
     font-weight: 600;  

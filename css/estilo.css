@@ -129,41 +129,57 @@ header{
 /* PERSONAS */
 
 #personas{
-    padding: 50px 20px;
-    display: flex;
+    padding: 30px 20px;
+    /* display: flex; */
     justify-content: center;
     text-align: center;
+    line-height: 1.5em;    
+}
+
+#personas h1{
+    font-family: "Trickster", "Anta";
+    /* padding: 0px 10px;   
+    text-align: left;
+    font-size: 4em; */
+  
+    font-size: 3em;
+    text-align: center;
+    margin: 3%;
 }
 
 #personas img{
     border-radius: 10%;
+    margin: 1% 1% 1% 1%;
 }
 
 #personas div{
-    padding: 30px 30px;
+    padding: 20px 20px;
     /* border: 1px solid blue; */
 }
 
 #personas div h4{
     color: #40405C;
     font-size: 20px;
-    margin: 15px 0px;
+    margin: 0px 0px;
+    
 }
 
 #personas div p{
     color: #4d4d5c87;
     font-size: 15px;
+    
 }
 
 .boton-saber-mas {
-    display: inline-block;
+    display: inline-block;    
     text-decoration: none;
     color: rgba(235, 61, 58, 0.747); /* #6cc091;*/
     padding: 10px 30px;
     border: 1px solid rgba(254, 44, 42, 0.842);/*#6cc091;*/
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 40px;
     transition: all 0.4s;
+    
 }
 
 .boton-saber-mas:hover{
@@ -173,7 +189,7 @@ header{
 }
 
 #iconos{
-    padding: 10px 0px;
+    padding: 40px 0px;
     background:  #4d4d5c; /* rgba(77, 77,92, 0.6);*/
 }
 
@@ -225,7 +241,7 @@ header{
 
 .boton-iconos{
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 /* FORMULARIO */
@@ -349,12 +365,10 @@ footer{
     font-size: 0.8em;
 }
 
-.bonus{
+.bonus{        
         width: 20px;
         height: 20px;
         /* background-position: center top -20px;*/
-        margin: auto 0;
-
 }
 
 /* RESPONSIVE */
@@ -375,11 +389,20 @@ footer{
         text-align: center;
         padding: 100px 0px;
         z-index: 100;
+
         transition: 0.8s;
         background-image: url("../img/Logo.png");
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center;                
     }
+    .menu::after {
+        content: "Que la sabiduría no sea humillación para tu prójimo.";
+        display: block;
+        margin-top: 160px; /* Ajusta según sea necesario */
+        font-size: 0.7em;
+        color: white; /* Color del texto */
+      }
+
     .menu a{
         display: block;
         padding: 20px;
@@ -395,6 +418,13 @@ footer{
     #personas{
         flex-direction: column;
     }
+
+    #personas img{
+        border-radius: 10%;
+        margin: 8% 1% 1% 1%;
+    }
+    
+
     /* ICONOS */
     .contenido-iconos{
         flex-direction: column;

@@ -141,7 +141,7 @@ header{
     /* padding: 0px 10px;   
     text-align: left;
     font-size: 4em; */
-  
+    font-weight: 500;
     font-size: 3em;
     text-align: center;
     margin: 3%;
@@ -149,7 +149,7 @@ header{
 
 #personas img{
     border-radius: 10%;
-    margin: 1% 1% 1% 1%;
+    margin: 1% 1% 2% 1%;
 }
 
 #personas div{
@@ -387,7 +387,7 @@ footer{
         right: -100%;
         top:0;
         text-align: center;
-        padding: 100px 0px;
+        padding: 100px 0px 10px 0px;
         z-index: 100;
 
         transition: 0.8s;
@@ -398,7 +398,7 @@ footer{
     .menu::after {
         content: "Que la sabiduría no sea humillación para tu prójimo.";
         display: block;
-        margin-top: 160px; /* Ajusta según sea necesario */
+        margin-top: 180px; /* Ajusta según sea necesario */
         font-size: 0.7em;
         color: white; /* Color del texto */
       }

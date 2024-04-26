@@ -274,11 +274,17 @@ header{
 
 
 #contacto .cajaizquierda h1{
-    font-weight: 600;
+    /* 
     font-size: 35px;
+     */
+    line-height: 1.1em;
     text-align: center;
     font-family: "Trickster", "Anta";
-    line-height: 1.5em;
+    font-weight: 600;
+
+    font-weight: 500;
+    font-size: 3em;
+    text-align: center;
 }
 
 #contacto .cajaderecha{
@@ -289,9 +295,15 @@ header{
 }
 
 #contacto h4{
+
+    line-height: 1.1em;
     text-align: center;
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-family: "Trickster", "Anta";
+    font-weight: 600;
+
+    font-weight: 500;
+    font-size: 3em;
+    text-align: center;    
 }
 input.boton-saber-mas {
     font-size: 15px; /* Ajusta el tamaño según lo necesites */
@@ -398,9 +410,10 @@ footer{
     .menu::after {
         content: "Que la sabiduría no sea humillación para tu prójimo.";
         display: block;
-        margin-top: 180px; /* Ajusta según sea necesario */
-        font-size: 0.7em;
+        margin-top: 120px; /* Ajusta según sea necesario */
+        font-size: 0.9em;
         color: white; /* Color del texto */
+        font-family: monospace;
       }
 
     .menu a{

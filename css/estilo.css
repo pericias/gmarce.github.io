@@ -129,7 +129,7 @@ header{
 /* PERSONAS */
 
 #personas{
-    padding: 30px 20px;
+    padding: 15px 20px;
     /* display: flex; */
     justify-content: center;
     text-align: center;
@@ -280,10 +280,11 @@ header{
     line-height: 1.1em;
     text-align: center;
     font-family: "Trickster", "Anta";
-    font-weight: 600;
+    /* font-weight: 600; */
 
     font-weight: 500;
-    font-size: 3em;
+    font-size: 2.5em;
+
     text-align: center;
 }
 
@@ -299,10 +300,8 @@ header{
     line-height: 1.1em;
     text-align: center;
     font-family: "Trickster", "Anta";
-    font-weight: 600;
-
     font-weight: 500;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;    
 }
 input.boton-saber-mas {
@@ -435,9 +434,13 @@ footer{
     #personas img{
         border-radius: 10%;
         margin: 8% 1% 1% 1%;
+    }   
+
+    #personas h1{
+        font-size: 1.9em;
+        font-weight: 500;
     }
     
-
     /* ICONOS */
     .contenido-iconos{
         flex-direction: column;
@@ -461,4 +464,11 @@ footer{
         border-right: none;
         border-bottom: 2px solid rgba(255,255,255,0.2);
     }
+    
+    #contacto .cajaizquierda h1, 
+    #contacto h4{
+        font-size: 1.9em;
+    }
+    
 }
+
